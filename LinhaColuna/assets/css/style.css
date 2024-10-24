@@ -1,0 +1,74 @@
+/* Classes para linhas e colunas */
+
+.linha{
+    display: flex;
+    flex-wrap: wrap;
+    /*comando para quebrar a linha*/
+    margin: 10px;
+}
+
+.linha > div{
+    border: 2px solid tomato;
+}
+
+.coluna{
+    flex: 1;
+
+    /*ocupe todo espaço disponível */
+    box-sizing: border-box;
+}
+
+.coluna-1{
+    flex: 0 0 8.33%;
+    /* o primeiro valor, de 0 à 1, define quanto ele pode esticar */
+    /* o segundo valor, também de 0 à 1, define o quanto ele pode diminuir */
+}
+
+.coluna-2{
+    flex: 0 0 16.66%;
+}
+
+.coluna-3{
+    flex: 0 0 25%;
+}
+
+.coluna-4{
+    flex: 0 0 33.33%;
+}
+
+.coluna-5{
+    flex: 0 0 41.67%;
+}
+
+.coluna-6{
+    flex: 0 0 50%;
+}
+
+.coluna-7{
+    flex: 0 0 58.33%;
+}
+
+.coluna-8{
+    flex: 0 0 66.67%;
+}
+
+.coluna-9{
+    flex: 0 0 75%;
+}
+
+.coluna-10{
+    flex: 0 0 83.33%;
+}
+
+.coluna-11{
+    flex: 0 0 91.67%;
+}
+
+.coluna-12{
+    flex: 0 0 100%;
+}
+
+.bg-tomato{
+    background-color: tomato;
+    font-size: 30px;
+}
